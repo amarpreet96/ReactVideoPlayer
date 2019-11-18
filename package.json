@@ -6,10 +6,11 @@
     "axios": "^0.18.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "serve": "^11.2.0"
   },
   "scripts": {
-	"dev": "react-scripts start",
+    "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
